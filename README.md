@@ -13,9 +13,9 @@ Descriptive: Total number of redeemed animals from custody of Vancouver Animal C
 Diagnostic: What factors contribute to different status of animals?
 Predictive: How many animals are expected to be redeemed next year?
 Prescriptive: How can we allocate resources to manage the increase in animals that come into custody?
-https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture2.png
+![image](https://github.com/user-attachments/assets/3b83bee2-db40-4496-a0a8-9a56c318d211)
 When we get data we need to store it somewhere. So AWS provide service S3 to store data. I created my bucket named “animals”, domain “records” in S3.
-https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture3.png
+![image](https://github.com/user-attachments/assets/499462b3-1009-46a0-8b83-3fbe147740c1)
 In this domain folders for 2023 and 2024 are created. In 2024 further landing, raw and curated folders are created.
 After creating folders upload the data for “redeemed” and “total” animals in respective folders in excel format in the landing folder where we upload operational dataset.
 https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture3.png
