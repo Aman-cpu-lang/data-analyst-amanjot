@@ -15,11 +15,11 @@ Predictive: How many animals are expected to be redeemed next year?
 Prescriptive: How can we allocate resources to manage the increase in animals that come into custody?
 ![image](https://github.com/user-attachments/assets/3b83bee2-db40-4496-a0a8-9a56c318d211)
 When we get data we need to store it somewhere. So AWS provide service S3 to store data. I created my bucket named “animals”, domain “records” in S3.
-![image](https://github.com/user-attachments/assets/499462b3-1009-46a0-8b83-3fbe147740c1)
+![image](https://github.com/user-attachments/assets/096889ad-c727-4ce5-b54d-e00719585ca4)
 In this domain folders for 2023 and 2024 are created. In 2024 further landing, raw and curated folders are created.
 After creating folders upload the data for “redeemed” and “total” animals in respective folders in excel format in the landing folder where we upload operational dataset.
-https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture3.png
-https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture4.png
+![image](https://github.com/user-attachments/assets/1195470f-eb5f-4e02-ad1d-a7b36d84ecb6)
+![image](https://github.com/user-attachments/assets/fd83e3bd-d48f-4e9c-8377-6dcf4faffec8)
 For data cleaning I used AWS Glue data brew, where I created project first. After creating project, data is uploaded from landing folders. Now all the missing values are either relaced with null, or rows are deleted. Also year is extracted from the date.
 Data cleaning Redeemed:
 https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture5.png
