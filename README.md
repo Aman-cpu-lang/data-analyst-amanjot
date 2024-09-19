@@ -22,14 +22,14 @@ After creating folders upload the data for “redeemed” and “total” animal
 ![image](https://github.com/user-attachments/assets/fd83e3bd-d48f-4e9c-8377-6dcf4faffec8)
 For data cleaning I used AWS Glue data brew, where I created project first. After creating project, data is uploaded from landing folders. Now all the missing values are either relaced with null, or rows are deleted. Also year is extracted from the date.
 Data cleaning Redeemed:
-https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture5.png
+![image](https://github.com/user-attachments/assets/22a7cd86-b773-40c9-b696-4c84d9cc714b)
 Data cleaning Total
-https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture6.png
+![image](https://github.com/user-attachments/assets/23e0875d-ae1b-4608-a631-c54f55bf07fb)
 I only replaced missing values for data structuring. After cleaning job is created and run, now the leaned data is stored in raw folder.
 Reedemed
-https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture7.png
+![image](https://github.com/user-attachments/assets/03ee6db9-d50b-4456-9275-9c03f7524623)
 Total
-https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture8.png
+![image](https://github.com/user-attachments/assets/20453702-3b6b-4aaa-8df0-05c290018d4b)
 After this I created ETL pipeline on AWS Glue
 https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture9.png
 S3 data is firstly sourced, then schema is changed by dropping the unnecessary column.
