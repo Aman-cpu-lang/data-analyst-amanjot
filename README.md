@@ -7,7 +7,7 @@ Introduction
  	With the adoption of this cloud-based DAP, the City of Vancouver will unlock the insights of their data for better evidence-based policymaking, enhanced urban planning, and improved public services, feeding into more effective and responsive city government. The subsequent sections discuss the design and implementation of each component of the DAP, showing how AWS services are used to build a robust, integrated analytics environment for the City of Vancouver.
 Step 1: Data Analytic Question Formulation
 I have used the data of Animals control and inventory management. For the animals who are reported on roads are sometimes redeemed by their owners, sometimes sold, sometimes they die of medical issues. In this my goal is to find the percent redeemed animals.
-[[https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture1.png]]
+![image](https://github.com/user-attachments/assets/8fe601ab-9401-4739-a698-f862b0bd7241)
 Different analytical questions and metrics are:
 Descriptive: Total number of redeemed animals from custody of Vancouver Animal Control this year?
 Diagnostic: What factors contribute to different status of animals?
