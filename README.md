@@ -8,7 +8,7 @@ Introduction
 Step 1: Data Analytic Question Formulation
 I have used the data of Animals control and inventory management. For the animals who are reported on roads are sometimes redeemed by their owners, sometimes sold, sometimes they die of medical issues. In this my goal is to find the percent redeemed animals.
 Aman-cpu-lang/data-analyst-amanjot/Picture1.png
-https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture1.png
+(https://github.com/Aman-cpu-lang/data-analyst-amanjot/blob/main/Picture1.png)
 Different analytical questions and metrics are:
 Descriptive: Total number of redeemed animals from custody of Vancouver Animal Control this year?
 Diagnostic: What factors contribute to different status of animals?
